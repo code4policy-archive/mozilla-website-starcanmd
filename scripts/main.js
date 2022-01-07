@@ -65,6 +65,22 @@ function hideFox() {
 }
 
 
+function toggleFox() {
+
+	var x = document.getElementById("firefox-icon.png");
+
+  if (x.style.display === "none") {
+
+    x.style.display = "block";
+
+  } else {
+
+    x.style.display = "none";
+  }
+
+}
+
+
 if(!localStorage.getItem('name')) {
 
   setUserName();
