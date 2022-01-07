@@ -1,3 +1,54 @@
-p {
-  color: red;
+html h1 {
+  font-size:  85px;
+  font-family: "Tangerine";
+}
+
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color:  #FEE5CC;
+}
+
+h1 {
+  font-size: 85px;
+  text-align: center;
+  margin:  0;
+  padding: 20px 0;
+  color:  #AEAEE9;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 850px;
+  margin:  0 auto;
+  background-color: #CCFECC;
+  padding: 100px 150px 150px 150px;
+  border: 2px solid black;
+}
+
+.center {
+  display:  block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.center_text {
+  display:  block;
+  margin-left: 250px;
+  margin-right: auto;
+  width: 80%;
+}
+
+.center_list {
+  display:  block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
