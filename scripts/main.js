@@ -51,6 +51,7 @@ function noUserName() {
 
 }
 
+/**This is from the bonus task
 
 function showFox() {
 
@@ -63,6 +64,8 @@ function hideFox() {
 
 	document.getElementById('firefox-icon.png').style.display = "none";
 }
+
+**/
 
 
 function toggleFox() {
