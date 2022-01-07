@@ -15,8 +15,6 @@ myImage.onclick = function() {
 	}
 }
 
-let myButton = document.querySelector('button');
-
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -27,6 +25,11 @@ function setUserName() {
 
 		noUserName();
 
+	} else {
+
+		localStorage.setItem ('name', myName);
+
+		myHeading.textContent = 'Mozilla is cool, ' + myName;
 	}
 
 }
@@ -46,6 +49,19 @@ function noUserName() {
 		myHeading.textContent = 'Mozilla is cool, ' + myName;
 	}
 
+}
+
+
+function showFox() {
+
+	document.getElementById('firefox-icon.png').style.display = "inherit";
+
+}
+
+
+function hideFox() {
+
+	document.getElementById('firefox-icon.png').style.display = "none";
 }
 
 
